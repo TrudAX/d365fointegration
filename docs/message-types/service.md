@@ -1,12 +1,12 @@
 ---
-sidebar_position: 8
-title: Services
-description: Synchronous service-based integration - standardized contracts, logging, and in-D365FO testing for custom X++ services.
+sidebar_position: 4
+title: Service-based
+description: The service message type - synchronous request/response services with standardized contracts, logging, and in-app testing.
 ---
 
-# Services
+# Service-based
 
-For synchronous request/response scenarios — an external system querying D365FO data on demand — the framework standardizes what every custom service otherwise reinvents: the response contract, error handling, logging, and testing.
+A service message type handles **synchronous request/response** scenarios — an external system querying D365FO data on demand. The framework standardizes what every custom service otherwise reinvents: the response contract, error handling, logging, and testing.
 
 **Base classes:** `DEVIntegServiceExportBase` (service base), `DEVIntegServiceExportResponseContract` (unified response: a .NET dataset with 0..n tables, an output string, a success flag, and an error message), `DEVIntegDataTableHelper` (dataset building).
 
@@ -53,4 +53,6 @@ The caller checks `IsSuccess`, reads `ErrorMessage` on failure, or deserializes 
 
 Register the class in the [Service message types](../forms/setup/service-message-types.md) form. The **Test** button opens the [Service test form](../forms/operations.md#service-test), which auto-generates the input contract — specify parameters and **Execute**, no external tools needed. Logging levels from statistics-only to full request/response are described under [Service call log](../forms/logs.md#service-call-log).
 
-Tutorial: [Implement service-based integration in D365FO](https://denistrunin.com/integration-services)
+## Tutorial
+
+- [Implement service-based integration in D365FO](https://denistrunin.com/integration-services) — the design rationale, the full sample, and logging options.

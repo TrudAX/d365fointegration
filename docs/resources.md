@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+sidebar_position: 8
 title: Resources
 description: The full series of External Integration tutorials and blog posts on denistrunin.com.
 ---
@@ -10,27 +10,27 @@ The framework is documented as a series of step-by-step tutorials on [denistruni
 
 ## Design and methodology
 
-- [How to design a successful integration](https://denistrunin.com/integration-checklist) *(2019)* — a checklist of what to consider when designing any D365FO integration: volumes, error handling, monitoring, ownership.
+- [How to design a successful integration](https://denistrunin.com/integration-checklist) — a checklist of what to consider when designing any D365FO integration: volumes, error handling, monitoring, ownership.
 
 ## Inbound tutorials
 
-- [File-based integration for ledger journals](https://denistrunin.com/xpptools-fileintegledger) *(2020)* — the foundational tutorial: CSV/Excel from Azure File Share, staging, the four error types and how users recover from each.
-- [Azure Service Bus integration](https://denistrunin.com/xpptools-integservbussalesjson) *(2021)* — sales orders from JSON queue messages.
-- [Import purchase orders from XML files](https://denistrunin.com/xpptools-integfilesharexmlpurch) *(2022)* — XML parsing with `DEVIntegXMLReadHelper`.
-- [Multicompany DMF integration](https://denistrunin.com/xpptools-fileintegdmf) *(2021)* — standard DMF projects wrapped with framework logging and multicompany support.
-- [Import sales orders from an external web application](https://denistrunin.com/integration-inboundwebsales) *(2025)* — incremental REST polling, parent/child messages, mapping, full traceability.
-- [Import purchase orders from PDF using AI](https://denistrunin.com/integration-importpurchpdf) *(2025)* — LLM-based document recognition with Google Gemini.
+- [File-based integration for ledger journals](https://denistrunin.com/xpptools-fileintegledger) — the foundational tutorial: CSV/Excel from Azure File Share, staging, the four error types and how users recover from each.
+- [Azure Service Bus integration](https://denistrunin.com/xpptools-integservbussalesjson) — sales orders from JSON queue messages.
+- [Import purchase orders from XML files](https://denistrunin.com/xpptools-integfilesharexmlpurch) — XML parsing with `DEVIntegXMLReadHelper`.
+- [Multicompany DMF integration](https://denistrunin.com/xpptools-fileintegdmf) — standard DMF projects wrapped with framework logging and multicompany support.
+- [Import sales orders from an external web application](https://denistrunin.com/integration-inboundwebsales) — incremental REST polling, parent/child messages, mapping, full traceability.
+- [Import purchase orders from PDF using AI](https://denistrunin.com/integration-importpurchpdf) — LLM-based document recognition with Google Gemini.
 
 ## Outbound tutorials
 
-- [Periodic data export to SFTP](https://denistrunin.com/integration-outboundsftp) *(2024)* — no-code SQL exports, X++ export classes, incremental EDI invoices.
-- [Event-based exports to external web services](https://denistrunin.com/integration-outboundweb) *(2024)* — document exports on business events, response processing, tracing, monitoring.
+- [Periodic data export to SFTP](https://denistrunin.com/integration-outboundsftp) — no-code SQL exports, X++ export classes, incremental EDI invoices.
+- [Event-based exports to external web services](https://denistrunin.com/integration-outboundweb) — document exports on business events, response processing, tracing, monitoring.
 
 ## Services
 
-- [Service-based integration in D365FO](https://denistrunin.com/integration-services) *(2026)* — synchronous X++ services with standardized contracts, logging, and in-app testing.
+- [Service-based integration in D365FO](https://denistrunin.com/integration-services) — synchronous X++ services with standardized contracts, logging, and in-app testing.
 
 ## Performance and helpers
 
-- [Performance: importing one million ledger journal lines](https://denistrunin.com/xpptools-fileintegledgerperf) *(2021)* — parallel processing at scale, with measurements.
-- [How to read Excel and CSV files using X++](https://denistrunin.com/xpptools-readexcelfile) *(2019)* — the `DEVFileReader` classes used by the file-based scenarios.
+- [Performance: importing one million ledger journal lines](https://denistrunin.com/xpptools-fileintegledgerperf) — parallel processing at scale, with measurements.
+- [How to read Excel and CSV files using X++](https://denistrunin.com/xpptools-readexcelfile) — the `DEVFileReader` classes used by the file-based scenarios.

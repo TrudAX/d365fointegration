@@ -120,8 +120,8 @@ const steps = [
     title: 'Design',
     text: 'Ready-to-use templates for integration planning:',
     items: ['Inbound', 'Outbound Event-based', 'Outbound Periodic', 'Service-based'],
-    link: '/docs/document-types',
-    linkLabel: 'Integration templates',
+    link: '/docs/message-types',
+    linkLabel: 'Message types',
   },
   {
     n: '02',
@@ -136,8 +136,8 @@ const steps = [
     title: 'Process data',
     text: 'Import documents from CSV, Excel, XML, JSON, PDF. Samples for:',
     items: ['Sales lines', 'Ledger journals', 'Purchase lines', 'Vendors'],
-    link: '/docs/document-types',
-    linkLabel: 'Document types',
+    link: '/docs/file-formats',
+    linkLabel: 'File formats',
   },
   {
     n: '04',
@@ -237,7 +237,7 @@ function WhyCompare() {
             </Heading>
           </div>
           <Link
-            to="/docs/why-external-integration/summary"
+            to="/docs/why-external-integration"
             className={styles.textLink}>
             Read the full comparison →
           </Link>

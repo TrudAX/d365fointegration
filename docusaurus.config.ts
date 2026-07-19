@@ -86,7 +86,7 @@ const config: Config = {
           label: 'Documentation',
         },
         {
-          to: '/docs/why-external-integration/summary',
+          to: '/docs/why-external-integration',
           position: 'left',
           label: 'Why External Integration',
         },
@@ -112,7 +112,7 @@ const config: Config = {
           items: [
             {label: 'Introduction', to: '/docs/intro'},
             {label: 'Getting started', to: '/docs/getting-started'},
-            {label: 'Why External Integration', to: '/docs/why-external-integration/summary'},
+            {label: 'Why External Integration', to: '/docs/why-external-integration'},
           ],
         },
         {

@@ -14,7 +14,7 @@ Registers synchronous X++ service classes (extending `DEVIntegServiceExportBase`
 
 ## Key settings
 
-- **Service class** — the X++ class implementing the service; see [Services](../../document-types/services.md) for the development pattern.
+- **Service class** — the X++ class implementing the service; see [Service-based message types](../../message-types/service.md) for the development pattern.
 - **Logging** — per-service log level, from statistics-only to full request/response; the levels are described under [Service call log](../logs.md#service-call-log).
 
 ## Servicing

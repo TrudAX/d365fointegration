@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 title: CSV / Excel
 description: Importing CSV and Excel files into D365FO - file readers and the ledger journal sample.
 ---

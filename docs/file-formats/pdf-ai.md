@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 4
 title: PDF (AI)
 description: Importing PDF documents into D365FO using LLM-based recognition.
 ---

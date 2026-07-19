@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 3
 title: JSON
 description: Importing and producing JSON documents in D365FO - contract classes, JSON helpers, and the sales order samples.
 ---

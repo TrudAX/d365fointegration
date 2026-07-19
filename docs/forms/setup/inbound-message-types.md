@@ -14,7 +14,7 @@ Describes one inbound integration: where messages come from and which class proc
 
 ## Key sections
 
-- **Details / Connection details** — the linked [connection type](./connection-types.md), source folder or queue (plus Archive folder for file-based channels), and the processing class. The class extends `DEVIntegProcessMessageBase` and implements one method, `processMessage` — see [Document types](../../document-types/index.md).
+- **Details / Connection details** — the linked [connection type](./connection-types.md), source folder or queue (plus Archive folder for file-based channels), and the processing class. The class extends `DEVIntegProcessMessageBase` and implements one method, `processMessage` — see [Inbound message type](../../message-types/inbound.md).
 - **Incremental load** (for web-service sources) — *Last date time* used for the next request, *Overlap (seconds)* to avoid missing late commits, and *Offset*/*Limit* for paging.
 - **Operation parameters** — parameters specific to the processing class (for example, ledger journal name, post yes/no, file type). Each processing class defines its own.
 - **Advanced settings** — parallel processing thread count and archive file naming.

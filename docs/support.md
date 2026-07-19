@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 9
 title: Support
 description: How to report issues, ask questions, and contribute to the External Integration Module.
 ---
@@ -24,7 +24,7 @@ Questions and feature ideas are welcome in the same [issue tracker](https://gith
 
 ## Documentation feedback
 
-If a page on this site is wrong or unclear, open an issue in the site's own repository (linked in the footer) — documentation issues are kept separate from framework code issues.
+If a page on this site is wrong or unclear, open an issue in the site's own repository: [TrudAX/d365fointegration](https://github.com/TrudAX/d365fointegration/issues) — documentation issues are kept separate from framework code issues.
 
 ## Contributing
 

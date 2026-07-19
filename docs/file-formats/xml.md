@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 title: XML
 description: Importing XML documents into D365FO with the XML read helper.
 ---

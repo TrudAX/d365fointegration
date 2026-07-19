@@ -25,4 +25,4 @@ Every connection type stores its credentials in one of three modes: **Manual ent
 
 ## Adding your own connector
 
-Inbound connectors extend the message load infrastructure (`DEVIntegMessagesLoad` / `DEVIntegMessagesLoadBaseType`): the load class reads from the source and creates *Incoming messages* records with the payload attached. Because processing is completely separated from loading, a new connector automatically works with every existing [document type](../document-types/index.md).
+Inbound connectors extend the message load infrastructure (`DEVIntegMessagesLoad` / `DEVIntegMessagesLoadBaseType`): the load class reads from the source and creates *Incoming messages* records with the payload attached. Because processing is completely separated from loading, a new connector automatically works with every existing [message type](../message-types/index.md).
