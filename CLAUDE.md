@@ -24,4 +24,4 @@ Official Docusaurus site for the **External Integration Module for D365FO** — 
 
 ## Deployment
 
-Live at https://trudax.github.io/d365fointegration (repo TrudAX/d365fointegration, deploys via GitHub Actions on push to main). Remaining placeholder: GA ID `G-XXXXXXXXXX` in `docusaurus.config.ts`.
+Live at https://trudax.github.io/d365fointegration (repo TrudAX/d365fointegration, deploys via GitHub Actions on push to main). Google Analytics is wired (G-74S7CMRN5V).

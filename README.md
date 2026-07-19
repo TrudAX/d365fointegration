@@ -17,11 +17,11 @@ npm run serve    # serve the production build locally (search works here)
 
 https://trudax.github.io/d365fointegration
 
-## Remaining configuration
+## Configuration notes
 
 | Setting in [`docusaurus.config.ts`](docusaurus.config.ts) | Current value | Note |
 |---|---|---|
-| `gtag.trackingID` | `G-XXXXXXXXXX` (placeholder) | Replace with the real Google Analytics 4 measurement ID |
+| `gtag.trackingID` | `G-74S7CMRN5V` | Google Analytics 4 measurement ID |
 | `baseUrl` | `/d365fointegration/` | Change to `/` if a custom domain is added later |
 
 ## Deployment (GitHub Pages)

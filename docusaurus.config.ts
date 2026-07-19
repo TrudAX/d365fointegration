@@ -46,8 +46,7 @@ const config: Config = {
           customCss: './src/css/custom.css',
         },
         gtag: {
-          // TODO: replace with the real Google Analytics 4 measurement ID.
-          trackingID: 'G-XXXXXXXXXX',
+          trackingID: 'G-74S7CMRN5V',
           anonymizeIP: true,
         },
       } satisfies Preset.Options,
