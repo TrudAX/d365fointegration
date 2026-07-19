@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'External Integration Module for D365FO',
-  tagline: 'Build reliable and easy to support D365FO integrations',
+  title: 'External Integration Module for Dynamics 365 ERP',
+  tagline: 'Build reliable and easy to support Dynamics 365 ERP integrations',
   favicon: 'img/logo.svg',
 
   future: {

@@ -340,8 +340,8 @@ function BottomCta() {
 export default function Home(): ReactNode {
   return (
     <Layout
-      title="External Integration Module for D365FO"
-      description="A free, open-source X++ framework for building reliable and easy to support integrations in Microsoft Dynamics 365 Finance and Operations.">
+      title="External Integration Module for Dynamics 365 ERP"
+      description="An open-source X++ framework for building reliable and easy to support integrations in Microsoft Dynamics 365 Supply Chain Management and Finance (D365FO).">
       <main className={styles.landing}>
         <Hero />
         <ProofSection />
