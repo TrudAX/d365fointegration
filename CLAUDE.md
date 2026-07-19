@@ -15,6 +15,10 @@ Official Docusaurus site for the **External Integration Module for D365FO** — 
 - `src/theme/prism-include-languages.ts` — X++ highlighting: Prism `csharp` + exactly 4 extra keywords (`ttsbegin`, `firstonly`, `crosscompany`, `container`); `xpp` fence is an alias. Keep minimal.
 - `.github/workflows/deploy.yml` — GitHub Pages deploy on push to main
 
+## Working style
+
+When Denis proposes a correction or wording, do not just execute it verbatim — first analyse whether it is the best approach. If a better alternative exists, present it with reasoning (or implement it and explain the choices made); polished blends of his drafts are welcome.
+
 ## Key decisions
 
 - Docs describe the module (forms → connectors → document types) and **link** to blog tutorials on denistrunin.com — never copy posts. All 12 integration posts listed in `docs/resources.md`.

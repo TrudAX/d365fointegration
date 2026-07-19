@@ -162,8 +162,14 @@ function HowItWorks() {
             One repeatable model for every interface
           </Heading>
           <p>
-            The module standardizes the common work around an integration while
-            leaving your business logic and X++ code in your control.
+            The framework helps from the moment you get the task "integrate
+            D365FO with a third-party system": a{' '}
+            <Link href="https://denistrunin.com/integration-checklist">
+              questionnaire
+            </Link>{' '}
+            to structure the first design meeting, a template to describe the
+            message mapping, four base flows ready to run, and sample
+            connectors for every common channel.
           </p>
         </div>
         <div className={styles.stageGrid}>
