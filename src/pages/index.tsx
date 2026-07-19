@@ -37,7 +37,7 @@ function Hero() {
             <i /> Solution for Microsoft Dynamics 365 SCM and Finance
           </span>
           <Heading as="h1" className={styles.heroTitle}>
-            Build reliable and easy to support D365FO integrations
+            Build reliable and easy to support Dynamics 365 ERP integrations
           </Heading>
           <p className={styles.heroSubtitle}>
             An open-source X++ framework for predictable inbound and outbound
