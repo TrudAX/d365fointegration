@@ -34,15 +34,15 @@ function Hero() {
       <div className={clsx('container', styles.heroGrid)}>
         <div>
           <span className={styles.eyebrow}>
-            <i /> Free open-source X++ framework for D365FO
+            <i /> Solution for Microsoft Dynamics 365 SCM and Finance
           </span>
           <Heading as="h1" className={styles.heroTitle}>
             Build reliable and easy to support D365FO integrations
           </Heading>
           <p className={styles.heroSubtitle}>
-            A free, open-source X++ framework for predictable inbound and
-            outbound integrations — one repeatable model for designing,
-            processing, testing, and operating every interface.
+            An open-source X++ framework for predictable inbound and outbound
+            integrations — one repeatable model for designing, processing,
+            testing, and operating every interface.
           </p>
           <div className={styles.buttonRow}>
             <Link className={styles.buttonPrimary} to="/docs/intro">
