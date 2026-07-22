@@ -81,3 +81,47 @@
   border: 1px solid var(--ifm-color-emphasis-300);
   border-radius: 6px;
 }
+
+/* ---------- Docs typography: match the Fluent landing scale ---------- */
+
+:root {
+  --ifm-heading-font-weight: 600;
+  --ifm-heading-color: #242424;
+  --ifm-font-color-base: #242424;
+}
+
+/* Heading scale per Microsoft Learn (learn.microsoft.com Dynamics 365 docs):
+   h1 40px, h2 32px, body 16px/1.75, all weight 600.
+   Docusaurus sets per-heading size vars with these exact selectors;
+   same specificity later in the cascade overrides them. */
+.markdown h1:first-child {
+  --ifm-h1-font-size: 2.5rem; /* 40px, vs default 48px */
+  margin-bottom: 1rem; /* tighter gap to the first paragraph (default ~25px) */
+}
+
+.markdown > h2 {
+  --ifm-h2-font-size: 2rem; /* 32px */
+}
+
+.markdown > h3 {
+  --ifm-h3-font-size: 1.5rem; /* 24px */
+}
+
+/* Tighter space around section headings (defaults: h2 40px above / 20px below) */
+.markdown h2 {
+  margin-top: 1.75rem; /* 28px */
+  margin-bottom: 1rem; /* 16px */
+}
+
+.markdown h3 {
+  margin-top: 1.5rem; /* 24px */
+}
+
+.markdown {
+  line-height: 1.75;
+}
+
+/* Sidebar links: same size as the navbar items */
+.menu__link {
+  font-size: 14px;
+}
